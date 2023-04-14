@@ -1,0 +1,338 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+body {
+  font-family: "Playfair Display", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* reset start */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+button {
+  font-family: interhit;
+  color: var(--white);
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+/* reset end */
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* outline: 2px solid red; */
+}
+/* HEADER */
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.web-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  text-decoration: none;
+  margin-right: 76px;
+}
+.accent-header {
+  color: var(--navy-blue);
+}
+.accent-footer {
+  color: var(--cloud);
+}
+.header-nav {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-nav-link {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  padding: 24px 0;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--ocean);
+}
+.address-section {
+  font-style: normal;
+}
+.contact-item {
+  display: block;
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--ocean);
+}
+/* HERO SECTION */
+
+.hero-section {
+  background-color: var(--navy-blue);
+  padding: 188px 0;
+}
+.hero-section-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.hero-section-button {
+  display: block;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background: var(--iris);
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  padding: 15px 31px;
+}
+.hero-section-button:hover,
+.hero-section-button:focus {
+  background: var(--ocean);
+}
+.body-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  margin-bottom: 8px;
+}
+.body-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+.products-item,
+.teams-item {
+  background-color: var(--white);
+}
+.our-team-section {
+  background-color: var(--cloud);
+}
+.footer-section {
+  background: var(--navy-blue);
+}
+.footer-section .link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--iris);
+}
+.footer-text {
+  color: var(--cloud);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background: var(--cloud);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white);
+  background: var(--ocean);
+}
+/* Skills section */
+.skills-section {
+  padding: 120px 0;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skills-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+/* Products section */
+.products-section {
+  padding-bottom: 120px;
+}
+.section-title {
+  margin-bottom: 72px;
+}
+.products-container {
+  display: flex;
+  gap: 24px;
+}
+.products-item {
+  flex-basis: calc((100% - 48px) / 3);
+}
+/* Our team section */
+.our-team-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team-container {
+  display: flex;
+  gap: 24px;
+}
+.teams-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.name-card {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
+}
+.body-subtitle-team {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.body-text-team {
+  text-align: center;
+}
+/* Footer */
+.footer-section {
+  padding: 100px 0;
+}
+/* .footer-container {
+  padding-top: 100px;
+  padding-bottom: 100px; */
+
+.footer-text {
+  width: 264px;
+}
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+/* Portfolio */
+.filter-section {
+  padding: 96px 0 120px;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.filter-button {
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+}
+.filter-button:hover,
+.filter-button:focus {
+  border: 1px solid transparent;
+}
+.gallery-items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.gallery-card {
+  width: calc((100% - 48px) / 3);
+}
+.app-name {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
+.app-subtitle {
+  margin-bottom: 8px;
+}
