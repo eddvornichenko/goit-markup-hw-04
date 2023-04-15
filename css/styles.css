@@ -356,7 +356,7 @@ img {
   color: var(--light-slate);
 }
 .customer-icon {
-  color: currentColor;
+  fill: currentColor;
 }
 .customer-link:hover,
 .customer-link:focus {
